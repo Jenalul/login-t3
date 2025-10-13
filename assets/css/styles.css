@@ -8,6 +8,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #ddd;
   color: #333;
+  padding: 0 0.5rem;
 }
 
 main {
@@ -90,8 +91,21 @@ img {
   color: #1e90ff;
 }
 
-@media (max-width: 700px) {
-  img {
+@media (max-width: 48rem) {
+  .image {
     display: none;
+  }
+  .formulario {
+    border-radius: 0.5rem;
+  }
+}
+@media (max-width: 28rem) {
+  .formulario {
+    padding: 1.5rem;
+  }
+}
+@media (max-width: 24rem) {
+  .formulario {
+    padding: 1rem;
   }
 }/*# sourceMappingURL=styles.css.map */
